@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.opendata",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "opendata",
+    "packageName": "br.com.opendata",
+    "packageFolder": "br/com/opendata",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjA2NzRjZjRjY2UzYWM0YzRkMzAyZDZlYjlhMTA5MmM5Mzk1NDU0MDYyYWIzZjEyOGE0MGQxZjYzNTA4ZjQ3NDFiN2ZmN2FjYzNhZjU4NmI4NGUwNmYwMTJjMzU4NjAxMTRlYWVmNmU5MTUyNjY0MTE4M2YyYzU5MmE3YTZkNTI=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "pt-br", "es"]
+  }
+}
