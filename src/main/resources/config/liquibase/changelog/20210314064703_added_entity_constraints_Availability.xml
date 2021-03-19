@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Availability.
+    -->
+    <changeSet id="20210314064703-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="branch_id"
+                                 baseTableName="availability"
+                                 constraintName="fk_availability_branch_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="branch"/>
+
+    </changeSet>
+</databaseChangeLog>

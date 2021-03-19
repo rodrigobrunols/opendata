@@ -1,0 +1,39 @@
+{
+    "name": "Address",
+    "fields": [
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "districtName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "townName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countrySubDivision",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "postCode",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "additionalInfo",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20210314064702",
+    "entityTableName": "address",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -43,6 +43,14 @@ public class CacheConfiguration {
             createCache(cm, br.com.opendata.domain.User.class.getName());
             createCache(cm, br.com.opendata.domain.Authority.class.getName());
             createCache(cm, br.com.opendata.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.com.opendata.domain.Brand.class.getName());
+            createCache(cm, br.com.opendata.domain.Brand.class.getName() + ".companies");
+            createCache(cm, br.com.opendata.domain.Company.class.getName());
+            createCache(cm, br.com.opendata.domain.Company.class.getName() + ".branches");
+            createCache(cm, br.com.opendata.domain.Branch.class.getName());
+            createCache(cm, br.com.opendata.domain.Branch.class.getName() + ".availabilities");
+            createCache(cm, br.com.opendata.domain.Address.class.getName());
+            createCache(cm, br.com.opendata.domain.Availability.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

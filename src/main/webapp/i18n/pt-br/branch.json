@@ -1,0 +1,33 @@
+{
+  "opendataApp": {
+    "branch": {
+      "home": {
+        "title": "Branches",
+        "createLabel": "Criar novo Branch",
+        "createOrEditLabel": "Criar ou editar Branch",
+        "notFound": "Nenhum Branch encontrado"
+      },
+      "created": "Um novo Branch foi criado com o identificador {{ param }}",
+      "updated": "Um Branch foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Branch foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Branch {{ id }}?"
+      },
+      "detail": {
+        "title": "Branch"
+      },
+      "name": "Name",
+      "code": "Code",
+      "type": "Type",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "additionalInfo": "Additional Info",
+      "address": "Address",
+      "availability": "Availability",
+      "company": "Company",
+      "help": {
+        "name": "O nome da agencia."
+      }
+    }
+  }
+}

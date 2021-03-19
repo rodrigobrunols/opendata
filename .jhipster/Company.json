@@ -1,0 +1,39 @@
+{
+    "name": "Company",
+    "fields": [
+        {
+            "fieldName": "name",
+            "javadoc": "O nome da empresa.",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cnpjNumber",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "branch",
+            "otherEntityRelationshipName": "company",
+            "relationshipName": "branch"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "brand",
+            "otherEntityRelationshipName": "company",
+            "relationshipName": "brand",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20210314064700",
+    "javadoc": "A entidade Empresa.",
+    "entityTableName": "company",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

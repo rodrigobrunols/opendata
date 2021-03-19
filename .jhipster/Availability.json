@@ -1,0 +1,35 @@
+{
+    "name": "Availability",
+    "fields": [
+        {
+            "fieldName": "weekday",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "openingTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "closingTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "branch",
+            "otherEntityRelationshipName": "availability",
+            "relationshipName": "branch",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20210314064703",
+    "entityTableName": "availability",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

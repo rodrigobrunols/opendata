@@ -1,0 +1,27 @@
+{
+  "opendataApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Criar novo Address",
+        "createOrEditLabel": "Criar ou editar Address",
+        "notFound": "Nenhum Address encontrado"
+      },
+      "created": "Um novo Address foi criado com o identificador {{ param }}",
+      "updated": "Um Address foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Address foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Address {{ id }}?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "address": "Address",
+      "districtName": "District Name",
+      "townName": "Town Name",
+      "countrySubDivision": "Country Sub Division",
+      "postCode": "Post Code",
+      "additionalInfo": "Additional Info"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "opendataApp": {
+    "availability": {
+      "home": {
+        "title": "Availabilities",
+        "createLabel": "Criar novo Availability",
+        "createOrEditLabel": "Criar ou editar Availability",
+        "notFound": "Nenhum Availability encontrado"
+      },
+      "created": "Um novo Availability foi criado com o identificador {{ param }}",
+      "updated": "Um Availability foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Availability foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Availability {{ id }}?"
+      },
+      "detail": {
+        "title": "Availability"
+      },
+      "weekday": "Weekday",
+      "openingTime": "Opening Time",
+      "closingTime": "Closing Time",
+      "branch": "Branch"
+    }
+  }
+}

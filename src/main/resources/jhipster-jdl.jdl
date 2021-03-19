@@ -1,0 +1,63 @@
+
+entity Brand {
+	title String
+}
+
+/**
+ * A entidade Empresa.
+ */
+entity Company {
+	/**
+	* O nome da empresa.
+	*/
+	name String,
+	cnpjNumber Long
+}
+
+
+/**
+ * A entidade Agencia.
+ */
+entity Branch {
+	/**
+	* O nome da agencia.
+	*/
+	name String,
+	code Long,
+	type String,
+	latitude Long,
+	longitude Long,
+    additionalInfo String
+}
+
+
+entity Address {
+	address String,
+	districtName String,
+	townName String,
+  	countrySubDivision String,
+	postCode Long,
+	additionalInfo String
+}
+
+
+
+entity Availability {
+	weekday String,
+	openingTime Instant,
+	closingTime Instant
+}
+
+
+relationship OneToOne {
+	Branch{address} to Address
+}
+
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Brand to Company{brand},
+	Company to Branch{company},
+    Branch to Availability{branch},
+}
+

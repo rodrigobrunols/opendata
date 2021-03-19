@@ -150,3 +150,4 @@ jhipster:
 # ===================================================================
 
 # application:
+opendatabranchesurl: https://api.itau/open-banking/channels/v1/branches
